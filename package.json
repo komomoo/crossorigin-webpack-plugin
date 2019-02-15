@@ -1,0 +1,31 @@
+{
+  "name": "crossorigin-webpack-plugin",
+  "version": "0.0.1",
+  "description": "📦 支持 webpack4，在 HTML 的脚本中添加 crossorigin 属性",
+  "author": "momoko <ko.momo@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wannaxiao/crossorigin-webpack-plugin"
+  },
+  "keywords": [
+    "webpack-plugin",
+    "webpack",
+    "crossorigin",
+    "html"
+  ],
+  "scripts": {
+    "release": "sh build/release.sh"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@momoko/js"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@momoko/eslint-config-js": "^0.1.3",
+    "standard-version": "^4.4.0"
+  }
+}
