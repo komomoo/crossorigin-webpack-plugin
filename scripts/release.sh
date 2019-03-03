@@ -2,10 +2,18 @@ version=$(node -p "const { version } = require('./package.json'); version")
 
 git checkout master
 
-# 提交
+# commit
 git add -A
 standard-version --commit-all --release-as $version
-git push --tags origin master
 
-# 推送
+# gh-pages
+git checkout gh-pages
+git merge master
+git checkout master
+
+# push
+git push --tags origin
+git push --all origin
+
+# publish
 npm publish --registry=https://registry.npmjs.org
