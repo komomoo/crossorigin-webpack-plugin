@@ -16,7 +16,7 @@ yarn add -D crossorigin-webpack-plugin # 或 npm i -D crossorigin-webpack-plugin
 
 ### 使用
 
-> 定义在 `HtmlWebpackPlugin` 插件后。
+> 需定义在 `HtmlWebpackPlugin` 插件后
 
 ```js
 const CrossoriginWebpackPlugin = require('crossorigin-webpack-plugin')
