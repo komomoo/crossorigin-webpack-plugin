@@ -36,7 +36,7 @@ const webpackConfig = {
 > 默认配置为：`{crossorigin: 'anonymous'}`
 
 ```js
-new HtmlWebpackPlugin({crossorigin: 'anonymous'})
+new CrossoriginWebpackPlugin({crossorigin: 'anonymous'})
 ```
 
 <br>
