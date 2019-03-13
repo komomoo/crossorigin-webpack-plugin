@@ -1,6 +1,6 @@
 {
   "name": "crossorigin-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "📦 为 HTML 脚本添加 crossorigin 属性（跨域支持），支持 webpack4",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
@@ -33,6 +33,6 @@
     "webpack": "^4.29.5"
   },
   "peerDependencies": {
-    "html-webpack-plugin": ">=3.0.0"
+    "html-webpack-plugin": ">=2.0.0"
   }
 }
