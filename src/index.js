@@ -2,14 +2,19 @@
  * crossorigin-webpack-plugin
  */
 
+let HtmlWebpackPlugin
+try {
+  HtmlWebpackPlugin = require('html-webpack-plugin')
+} catch (e) {
+  if (!(e instanceof Error) || e.code !== 'MODULE_NOT_FOUND') throw e
+}
+
 module.exports = class CrossoriginWebpackPlugin {
   constructor (options) {
     this.options = options || { crossorigin: 'anonymous' }
   }
 
   apply (compiler) {
-    const HtmlWebpackPlugin = require('html-webpack-plugin')
-
     // Hook into the html-webpack-plugin processing
     if (HtmlWebpackPlugin && HtmlWebpackPlugin.getHooks) {
       // HtmlWebpackPlugin 4
