@@ -16,7 +16,7 @@ yarn add -D crossorigin-webpack-plugin # 或 npm i -D crossorigin-webpack-plugin
 
 ### 使用
 
-> 需定义在 `HtmlWebpackPlugin` 插件后
+> 需定义在 `HtmlWebpackPlugin` 插件之后
 
 ```js
 const CrossoriginWebpackPlugin = require('crossorigin-webpack-plugin')
@@ -31,7 +31,7 @@ const webpackConfig = {
 }
 ```
 
-### 自定义
+### 自定义参数
 
 > 默认配置为：`{crossorigin: 'anonymous'}`
 
