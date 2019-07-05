@@ -1,22 +1,24 @@
 # crossorigin-webpack-plugin
 
-## ✨ 特性
+English | [简体中文](./README.zh-CN.md)
 
-- 零配置/极简使用
-- 支持 webpack 版本 v1/2/3/4
-- 支持 html-webpack-plugin 版本 v2/3/4
+## ✨ Features
 
-## 🚀 快速开始
+- Zero-config, easy to use
+- Support webpack v2/3/4
+- Support html-webpack-plugin v2/3/4
 
-### 安装
+## 🚀 QuickStart
+
+### Install
 
 ```bash
-yarn add -D crossorigin-webpack-plugin # 或 npm i -D crossorigin-webpack-plugin
+yarn add -D crossorigin-webpack-plugin # OR npm i -D crossorigin-webpack-plugin
 ```
 
-### 使用
+### Usage
 
-> 需定义在 `HtmlWebpackPlugin` 插件之后
+> Please put it after `HtmlWebpackPlugin`
 
 ```js
 const CrossoriginWebpackPlugin = require('crossorigin-webpack-plugin')
@@ -31,17 +33,19 @@ const webpackConfig = {
 }
 ```
 
-### 自定义参数
+### Config
 
-> 默认配置为：`{crossorigin: 'anonymous'}`
+> Default config: `{ crossorigin: 'anonymous' }`
 
 ```js
-new CrossoriginWebpackPlugin({crossorigin: 'anonymous'})
+new CrossoriginWebpackPlugin({ crossorigin: 'anonymous' })
 ```
 
-<br>
-<br>
-😉😘 如果它对你有所帮助，可以点一下 <b>⭐️<a href="#">Star</a></b> ~
+---
+
+😉😘 If it is helpful to you，please encourage me with a <b>⭐️<a href="#">Star</a></b> ~
+
+## [Changelog](./CHANGELOG.md)
 
 ## License
 
