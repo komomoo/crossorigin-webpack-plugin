@@ -5,8 +5,8 @@ English | [简体中文](./README.zh-CN.md)
 ## ✨ Features
 
 - Zero-config, easy to use
-- Support webpack v2/3/4
-- Support html-webpack-plugin v2/3/4
+- Support webpack v2/3/4/5
+- Support html-webpack-plugin v2/3/4/5
 
 ## 🚀 QuickStart
 

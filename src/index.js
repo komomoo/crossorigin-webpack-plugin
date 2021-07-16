@@ -17,8 +17,14 @@ module.exports = class CrossoriginWebpackPlugin {
   apply (compiler) {
     // Hook into the html-webpack-plugin processing
     if (HtmlWebpackPlugin && HtmlWebpackPlugin.getHooks) {
-      // HtmlWebpackPlugin 4
-      HtmlWebpackPlugin.getHooks(compiler).alterAssetTags.tapAsync('CrossoriginWebpackPlugin', this._addAttributeToScripts.bind(this))
+      // HtmlWebpackPlugin 4/5
+      compiler.hooks.compilation.tap('CrossoriginWebpackPlugin', (compilation) => {
+        HtmlWebpackPlugin.getHooks(compilation).alterAssetTags.tapAsync('CrossoriginWebpackPlugin', (htmlPluginData, callback) => {
+          // console.log(htmlPluginData.assetTags)
+          htmlPluginData.assetTags.scripts.forEach(item => (item.attributes.crossorigin = this.options.crossorigin))
+          callback(null, htmlPluginData)
+        })
+      })
     } else if (compiler.hooks) {
       // HtmlWebpackPlugin 3
       compiler.hooks.compilation.tap('CrossoriginWebpackPlugin', compilation => {
