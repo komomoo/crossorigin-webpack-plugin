@@ -1,7 +1,7 @@
 {
   "name": "crossorigin-webpack-plugin",
-  "version": "0.1.4",
-  "description": "📦 Add the crossorigin attribute to HTML scripts(CORS), support webpack v2/3/4 | 为 HTML 脚本添加 crossorigin 属性（跨域支持），支持 webpack v2/3/4",
+  "version": "1.0.0",
+  "description": "📦 Add the crossorigin attribute to HTML scripts(CORS), support webpack v2/3/4/5 | 为 HTML 脚本添加 crossorigin 属性（跨域支持），支持 webpack v2/3/4/5",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/wannaxiao/crossorigin-webpack-plugin/compare/v0.1.4...v1.0.0) (2021-07-16)
+
+
+### Features
+
+* support webpack5 ([cee0b16](https://github.com/wannaxiao/crossorigin-webpack-plugin/commit/cee0b16))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/wannaxiao/crossorigin-webpack-plugin/compare/v0.1.3...v0.1.4) (2019-07-05)
 
