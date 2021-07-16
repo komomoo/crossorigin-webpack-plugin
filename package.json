@@ -30,7 +30,7 @@
     "@momoko/eslint-config-js": "^1.1.0",
     "eslint": "^7.30.0",
     "html-webpack-plugin": "^5.3.2",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "webpack": "^5.44.0"
   },
   "peerDependencies": {
