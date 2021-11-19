@@ -51,4 +51,4 @@ new CrossoriginWebpackPlugin({ crossorigin: 'anonymous' })
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, momoko
+Copyright (c) 2018-present, komo

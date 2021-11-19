@@ -2,12 +2,12 @@
   "name": "crossorigin-webpack-plugin",
   "version": "1.0.0",
   "description": "📦 Add the crossorigin attribute to HTML scripts(CORS), support webpack v2/3/4/5, support the latest webpack5 | 为 HTML 脚本添加 crossorigin 属性（跨域支持），支持 webpack v2/3/4/5，支持最新 webpack5",
-  "author": "momoko <ko.momo@qq.com>",
+  "author": "komo <ko.momo@qq.com>",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wannaxiao/crossorigin-webpack-plugin"
+    "url": "https://github.com/komomoo/crossorigin-webpack-plugin"
   },
   "keywords": [
     "webpack-plugin",
